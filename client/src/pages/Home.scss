@@ -1,0 +1,140 @@
+.home__container {
+  height: 91vh;
+  // General Styling
+  .icon {
+    font-size: 23px;
+    margin-right: 10px;
+    color: gray;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  // Home styling
+  padding: 10px;
+  flex: 1;
+  color: #fff;
+  border: 0.1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+
+  // Add button and search container
+  .add__contact-container {
+    padding: 25px;
+    // padding-bottom: 60px;
+    // margin-bottom: 40px;
+
+    border-bottom: 0.2px solid gray;
+    display: flex;
+    justify-content: space-between;
+
+    // search input
+    .search__input {
+      border: 0.1px solid gray;
+      border-radius: 10px;
+      padding: 8px;
+      width: 500px;
+      display: flex;
+      position: relative;
+      align-items: center;
+
+      input {
+        position: absolute;
+        margin-left: 20px;
+        width: 100%;
+        padding: 6px;
+        background-color: transparent;
+        color: black;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .add__contact-button {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    .icon {
+      position: absolute;
+      margin-left: 10px;
+    }
+    a {
+      width: 100%;
+      button {
+        padding: 8px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid;
+        padding: 10px;
+        cursor: pointer;
+        color: black;
+      }
+    }
+  }
+
+  // Contact body styling
+  .contacts__table-container {
+    // background-color: #fff;
+    height: 550px;
+    color: gray;
+    padding: 20px;
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+
+    th,
+    td {
+      border: 1px solid grey;
+      padding: 3px;
+      text-align: left;
+    }
+
+    tr {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+
+    th {
+      background-color: #9ea19ed4;
+      color: white;
+    }
+  }
+  tr .actions_btn {
+    display: flex;
+    justify-content: space-between;
+    button {
+      padding: 5px 10px;
+      border: none;
+    }
+    .btn-edit {
+      background-color: rgba(102, 120, 102, 0.734);
+      border-radius: 10px;
+      cursor: pointer;
+      color: rgb(61, 61, 61);
+    }
+    .btn-delete {
+      background-color: rgb(44, 25, 25);
+      border-radius: 10px;
+      cursor: pointer;
+      color: #fff;
+    }
+    .btn-view {
+      background-color: transparent;
+      border: 1px solid grey;
+      border-radius: 10px;
+      cursor: pointer;
+      color: rgb(61, 61, 61);
+    }
+  }
+}
