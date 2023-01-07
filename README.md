@@ -1,6 +1,5 @@
 # hello, 👋 
 
-# weusthemDevTest
 
 # Contact Management App
 
